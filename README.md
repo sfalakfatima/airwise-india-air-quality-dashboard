@@ -69,9 +69,7 @@ This dataset is sourced from real-time air quality monitoring data published on 
 
 - **Platform:** Open Government Data (OGD) Platform India
 - **Original Data Provider:** Central Pollution Control Board (CPCB)
-- **Resource Link:** `[[ADD EXACT data.gov.in RESOURCE LINK HERE](https://www.data.gov.in/resource/real-time-air-quality-index-various-locations 
-
-)]`
+- **Resource Link:** `[[ADD EXACT data.gov.in RESOURCE LINK HERE](https://www.data.gov.in/resource/real-time-air-quality-index-various-locations )]`
 
 
 ---
