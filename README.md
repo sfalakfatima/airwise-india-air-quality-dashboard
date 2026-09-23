@@ -89,8 +89,7 @@ This dataset is sourced from real-time air quality monitoring data published on 
 
 - **Platform:** Open Government Data (OGD) Platform India
 - **Original Data Provider:** Central Pollution Control Board (CPCB)
-- **Resource Link:** `[(https://www.data.gov.in/resource/real-time-air-quality-index-various-locations)]`
-
+- **Resource Link:** [Real-time Air Quality Index - OGD India](https://www.data.gov.in/resource/real-time-air-quality-index-various-locations)
 
 ---
 
@@ -116,3 +115,57 @@ The raw dataset was cleaned and prepared before being used in the dashboard:
 ---
 
 ## 📁 Project Structure
+
+```
+AIRWISE/
+├── app.py
+├── requirements.txt
+├── README.md
+├── AIRWISE_Project_Report.pdf
+├── Air quality in india.csv
+├── Overview.png
+├── Map.png
+├── Pollutant Analysis.png
+├── States and cities comparison.png
+└── Inghts.png
+```
+
+---
+
+## 🚀 How to Run
+
+1. **Clone/download** the project files into a single directory.
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Run the app:**
+   ```bash
+   streamlit run app.py
+   ```
+4. **Open the dashboard:** Streamlit will launch automatically in your browser, or provide a local URL (usually `http://localhost:8501`) to open manually.
+
+---
+
+## ⚠️ Important Dataset Limitation
+
+The dataset used in this project represents a **recent/current observation snapshot** of air quality readings from CPCB monitoring stations — it is **not a complete historical time series**.
+
+As a result:
+- This project **does not claim to show historical trends** over time.
+- This project **does not perform or claim future forecasting**.
+- All insights, comparisons, and visualizations reflect the data as captured at the time of collection, not long-term patterns.
+
+---
+
+## 🔭 Future Scope
+
+- 🔌 **Live API Integration** – Connect directly to CPCB/OGD real-time APIs instead of a static CSV.
+- 📈 **Historical Data Analysis** – Incorporate multi-year data to identify genuine seasonal and long-term trends.
+- 🔮 **Forecasting** – Apply time-series models to predict future pollutant levels.
+- 🚨 **Alerts** – Notify users when pollutant levels cross hazardous thresholds.
+- ☁️ **Online Deployment** – Host the dashboard publicly (e.g., Streamlit Community Cloud) for wider access.
+
+---
+
+*Built with ❤️ using Streamlit to make India's air quality data more accessible.*
