@@ -168,4 +168,3 @@ As a result:
 
 ---
 
-*Built with ❤️ using Streamlit to make India's air quality data more accessible.*
